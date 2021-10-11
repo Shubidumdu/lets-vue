@@ -4,6 +4,7 @@ import TemplateSyntax from './components/TemplateSyntax.vue';
 import Data from './components/Data.vue';
 import Computed from './components/Computed.vue';
 import StyleBinding from './components/StyleBinding.vue';
+import ConditionalRendering from './components/ConditionalRendering.vue';
 
 const routes = [
   { path: '/', component: HelloWorld },
@@ -11,6 +12,7 @@ const routes = [
   { path: '/data', component: Data },
   { path: '/computed', component: Computed },
   { path: '/style-binding', component: StyleBinding },
+  { path: '/conditional-rendering', component: ConditionalRendering },
 ];
 
 const router = createRouter({
